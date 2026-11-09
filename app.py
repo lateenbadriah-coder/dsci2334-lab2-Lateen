@@ -21,7 +21,7 @@ df = load_data()
 st.sidebar.header("Filters")
 
 min_cgpa = st.sidebar.slider(
-    "Minimum CGPA", 6.5, 10.0, 8.0, 0.1
+    "Minimum CGPA", 6.5, 10.0, 9.0, 0.1
 )
 
 research = st.sidebar.selectbox(
